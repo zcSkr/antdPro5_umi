@@ -1,0 +1,21 @@
+@import '~antd/es/style/themes/default.less';
+
+.skuWrap {
+  :global {
+
+    .ant-input-number,
+    .ant-input {
+      border-color: @normal-color  !important;
+    }
+
+    .ant-input-number:hover,
+    .ant-input:hover {
+      border-color: @input-number-hover-border-color  !important;
+    }
+
+    .ant-input-number-focused,
+    .ant-input:focus {
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+    }
+  }
+}

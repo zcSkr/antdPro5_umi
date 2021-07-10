@@ -1,0 +1,19 @@
+.SortContainer {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #e6f7ff;
+}
+
+.uploadWrap {
+  :global {
+    .uploadImg_sort {
+      z-index: 1001;
+    }
+
+    .ant-image-img {
+      object-fit: contain;
+    }
+  }
+}
